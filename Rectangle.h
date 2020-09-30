@@ -35,6 +35,7 @@ public:
 
   // returns true iff this rectangle shares any points with the other one
   bool Overlaps(Rectangle& other);
+  
 
   // returns the area of this rectangle
   int CalculateArea();
